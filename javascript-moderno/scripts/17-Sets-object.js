@@ -2,7 +2,7 @@
 
 // Crear el Set
 let gadgets = new Set(["Movil", "Tablet", "Portatil"]);
-console.log(gadgets)
+console.log(gadgets);
 
 // Agregar elementos al Set
 // se puede agregar cualquier tipo de elemento
@@ -11,7 +11,7 @@ gadgets.add(["Hola", "Hola"]); */
 
 gadgets.add("Smart Tv");
 gadgets.add("Chromecast");
-gadgets.add("Vaper"); 
+gadgets.add("Vaper");
 gadgets.add("Mouse");
 gadgets.add("Mouse"); // aunque este duplicado este es un elemento unico que no se agrega al set
 
@@ -33,9 +33,8 @@ console.log(gadgets.has("Chromecast"));
     console.log(item);
 } */
 
-gadgets.forEach(item => console.log(item))
+gadgets.forEach((item) => console.log(item));
 
 // Limpiar el Set
 gadgets.clear();
 console.log(gadgets);
-

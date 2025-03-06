@@ -1,7 +1,7 @@
 // SEPARADORES NUMERICOS
 
 let numero = 4_000_000; // No afectan en nada el numero
-console.log(numero)
+console.log(numero);
 
 // REPLACE Y REPLACE ALL
 
@@ -18,6 +18,5 @@ console.log(fraseFinal);
 let nombre = "";
 let id = 37;
 
-nombre ||= id // si existe nombre te devuelve el nombre, si no, el ID
-console.log(nombre)
-
+nombre ||= id; // si existe nombre te devuelve el nombre, si no, el ID
+console.log(nombre);

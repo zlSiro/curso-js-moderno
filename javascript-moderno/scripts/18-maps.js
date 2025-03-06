@@ -1,19 +1,19 @@
 // Objeto MAPS, es igual que SET pero guardando datos con clave y valor.
 
 const antiguos_gadgets = {
-    seis: "Radiocassette",
-    siete: "Telefono fijo",
-    ocho: "compac disc"
-}
-
+  seis: "Radiocassette",
+  siete: "Telefono fijo",
+  ocho: "compac disc",
+};
 
 const gadgets = new Map(Object.entries(antiguos_gadgets));
 
-gadgets.set(1, "PC")
-        .set(2, "TV")
-        .set(3, "Tablet")
-        .set("cuatro", "Movil")
-        .set("cinco", "Laptop");
+gadgets
+  .set(1, "PC")
+  .set(2, "TV")
+  .set(3, "Tablet")
+  .set("cuatro", "Movil")
+  .set("cinco", "Laptop");
 
 console.log(gadgets);
 

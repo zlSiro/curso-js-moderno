@@ -81,5 +81,5 @@ for (let propiedad of fruta) {
 }
 
 for (let propiedad in fruta) {
-    console.log(propiedad, fruta[propiedad])
+  console.log(propiedad, fruta[propiedad]);
 }

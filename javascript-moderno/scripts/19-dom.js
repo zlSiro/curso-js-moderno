@@ -19,16 +19,16 @@ contenedor.className = "ficha";
 
 /******* Como seleccionar elementos con una CLASE *******/
 
-let contenedores = document.querySelectorAll(".container")
-console.log(contenedores)
+let contenedores = document.querySelectorAll(".container");
+console.log(contenedores);
 
 contenedores.forEach((item, indice) => {
-    item.innerText = `Hola soy un texto ${indice} desde JS`;
-    item.className = "ficha";
+  item.innerText = `Hola soy un texto ${indice} desde JS`;
+  item.className = "ficha";
 
-    if(indice === 2) {
-        item.style.backgroundColor = "orange"
-    }
+  if (indice === 2) {
+    item.style.backgroundColor = "orange";
+  }
 });
 
 // forma penca de hacer lo mismo pero con ForIN

@@ -3,10 +3,8 @@ let nombre = "Juan Pablo";
 function mostrarNombres() {
   let apellidos = "Valdebenito";
   function mostarApellidos() {
-
     let profesion = "Web Dev";
-    function mostrarProfesion() {      
-
+    function mostrarProfesion() {
       return nombre + " " + apellidos + " " + profesion;
     }
 

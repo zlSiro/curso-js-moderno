@@ -14,10 +14,10 @@ console.log(pelicula);
 // ENUM - Enumeracion
 var datosPersonales;
 (function (datosPersonales) {
-    datosPersonales["nombre"] = "Juan Pablo";
-    datosPersonales[datosPersonales["rut"] = 123123] = "rut";
-    datosPersonales["direccion"] = "Fantasia";
-    datosPersonales["ciudad"] = "Santiago";
+  datosPersonales["nombre"] = "Juan Pablo";
+  datosPersonales[(datosPersonales["rut"] = 123123)] = "rut";
+  datosPersonales["direccion"] = "Fantasia";
+  datosPersonales["ciudad"] = "Santiago";
 })(datosPersonales || (datosPersonales = {})); // es un tipo de dato de solo lectura. No se puede volver a asignar un valor.
 // datosPersonales.nombre = "paco"
 console.log(datosPersonales.nombre, datosPersonales.rut);

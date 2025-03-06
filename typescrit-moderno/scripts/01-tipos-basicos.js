@@ -16,8 +16,8 @@ persona = ""; // no se le puede asignar otro valor que no sea string(como undefi
 let cualquiera = "Soy un texto"; // el unknown no se puede asignar como valor a otra variable como el any
 cualquiera = 1;
 if (typeof cualquiera === "number") {
-    let miNumero = cualquiera;
-    console.log(miNumero);
+  let miNumero = cualquiera;
+  console.log(miNumero);
 }
 console.log(numero);
 console.log(normal);

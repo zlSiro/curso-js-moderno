@@ -92,20 +92,9 @@ console.log(mi_segundo_coche.marca, mi_segundo_coche.modelo); */
 /* HERENCIAA */
 
 class Cuatriciclo extends Coche {
-  constructor(
-    marca,
-    modelo,
-    color,
-    velocidad,
-    year,
-    cilindrada) {
-    super(
-        marca,
-        modelo,
-        color,
-        velocidad,
-        year,);
-        this.cilindros = cilindrada
+  constructor(marca, modelo, color, velocidad, year, cilindrada) {
+    super(marca, modelo, color, velocidad, year);
+    this.cilindros = cilindrada;
   }
 
   saltar() {

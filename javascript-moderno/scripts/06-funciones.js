@@ -82,7 +82,7 @@ function multiplicacion(n1, n2) {
 let multiply = (n1, n2) => console.log(n1 * n2);
 
 multiplicacion(2, 3);
-multiply(4, 3)
+multiply(4, 3);
 
 // Funcion Flecha como metodo y this
 // JSON
@@ -91,24 +91,23 @@ let tienda = {
   nombre: "GAME",
   videoJuegos: ["GTA", "FIFA", "Valorant"],
   // formas de crear funcion mostrar
-  mostrar: function() {
+  mostrar: function () {
     console.log(tienda.nombre); // es mejor usar this para hacer referencia a la propiedad del objeto
   },
 
   mostrar2() {
-    this.videoJuegos.forEach(juego => {
-      
-      if(juego === "GTA") {
-        console.log("El mejor Juego de la Historia")
+    this.videoJuegos.forEach((juego) => {
+      if (juego === "GTA") {
+        console.log("El mejor Juego de la Historia");
       }
-      console.log(juego)
+      console.log(juego);
     });
   },
   // Arrow Function
   mostrar3: () => {
     console.log(tienda.nombre); // dentro de una funcion flecha no se puede usar el operador "this"
-  }
-}
+  },
+};
 
 tienda.mostrar();
 tienda.mostrar2();
